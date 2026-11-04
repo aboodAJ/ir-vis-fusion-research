@@ -11,7 +11,7 @@ Research on combining thermal and visible images into one more informative image
 
 ## The problem
 
-A car that drives itself relies on its cameras, and at night they see very little. In the visible image above, four pedestrians are in the scene and none of them can be seen. If the car cannot see them, it cannot segment the scene, which means labelling what is road, what is a person and what is another car. Without that, it cannot navigate safely.
+A self-driving car uses cameras to understand the road, but at night they see very little. In the visible image above, four pedestrians are in the scene and none of them can be seen. The car's vision system segments the scene, labelling what is road, what is a person and what is another car, and it cannot label people the camera does not show, which is a safety problem.
 
 An infrared camera helps, because it senses heat instead of light, so people stand out even in the dark. But it has its own blind spots: the lane markings in the visible image are missing from the infrared one, and a car needs those too.
 
@@ -30,7 +30,7 @@ A fused image can look good to a person and still help a machine very little, so
 
 ## Status
 
-This began as a final-year engineering project (PFE) at ENSA El Jadida, defended in September 2026, and the work has continued since. Methods, results and code are not public at this stage.
+This began as a final-year project (PFE) for my Master's in Data Science and AI at ENSA El Jadida, carried out at the CIAD Laboratory, UTBM (France), and defended in September 2026. The work has continued since. Code and full results are not public at this stage.
 
 ## Author
 
